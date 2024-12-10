@@ -45,7 +45,7 @@ impl Graph {
         Ok(graph)
     }
 
-    #[allow(dead_code)]
+    #[allow(dead_code)] //to compress warning
     pub fn degree(&self, node: u32) -> usize {
         self.neighbors(node).map_or(0, |neighbors| neighbors.len())
     }
