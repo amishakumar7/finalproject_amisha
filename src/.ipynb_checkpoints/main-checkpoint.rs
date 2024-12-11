@@ -1,6 +1,7 @@
 mod graph;
 mod triangle_count;
 mod clustering;
+mod test;
 
 use graph::Graph;
 
